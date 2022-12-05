@@ -1,11 +1,19 @@
 :root {
-  --primary-text-color: #434455;
-  --title-color: #2E2F42;
-  --primary-bg-color: #FFFFFF;
-  --secondary-bg-color: #F4F4FD;
-  --accent-color: #4D5AE5;
+  --primary-brand: #4D5AE5;         /*IRIS*/
+  --dark: #2E2F42;                  /*NAVY BLUE*/
+  --green: #31D0AA;                 /*SUCCESS*/
+  --text: #434455;                  /*SLATE*/
+  --sublin-text: #8E8F99;           /*LIGHT SLATE*/
+  --Accent: #E7E9FC;                /*CORNFLOWER*/
+  --light: #F4F4FD;                 /*CLOUD*/
+  --primary-bg-color: #FFFFFF;      /*WHITE*/
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--text);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--dark);
 }
