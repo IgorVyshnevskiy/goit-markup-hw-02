@@ -20,9 +20,12 @@ body {
 }
 
 .link,
-.logo {
+.logo,
+.btn {
+  font-family: inherit;
+  font-size: inherit;
   color: inherit;
-  
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -70,7 +73,8 @@ body {
 /* sections */
 .site-nav,
 .title,
-.list-title {
+.list-title,
+.btn {
   color: var(--dark);
 
   font-weight: 500;
