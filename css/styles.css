@@ -4,7 +4,7 @@
   --green: #31d0aa; /*SUCCESS*/
   --text: #434455; /*SLATE*/
   --sublin-text: #8e8f99; /*LIGHT SLATE*/
-  --Accent: #e7e9fc; /*CORNFLOWER*/
+  --accent: #e7e9fc; /*CORNFLOWER*/
   --light: #f4f4fd; /*CLOUD*/
   --primary-bg-color: #ffffff; /*WHITE*/
 }
@@ -134,5 +134,5 @@ body {
 /* footer */
 
 .text-color {
-  color: var(--Accent);
+  color: var(--accent);
 }
